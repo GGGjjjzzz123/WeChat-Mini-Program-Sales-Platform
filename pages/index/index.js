@@ -1,34 +1,37 @@
-PageTransitionEvent({
-  data:{
+//Page Object
+Page({
+  data: {
+    
+  },
+  //options(Object)
+  onLoad: function(options){
+    
+  },
+  onReady: function(){
+    
+  },
+  onShow: function(){
+    
+  },
+  onHide: function(){
 
   },
-  onLoad:function(options){
+  onUnload: function(){
 
   },
-  onReady:function(){
+  onPullDownRefresh: function(){
 
   },
-  onShow:function(){
+  onReachBottom: function(){
 
   },
-  onHide:function(){
+  onShareAppMessage: function(){
 
   },
-  onUnload:function(){
+  onPageScroll: function(){
 
   },
-  onPullDownRefresh:function(){
-
-  },
-  onReachBottom:function(){
-
-  },
-  onShareAppMessage:function(){
-
-  },
-  onPageScroll:function(){
-
-  },
+  //item(index,pagePath,text)
   onTabItemTap:function(item){
 
   }

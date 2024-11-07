@@ -1,17 +1,21 @@
-AudioParamMap({
-  onLanuch:function(options){
+//app.js
+App({
+  //onLaunch,onShow: options(path,query,scene,shareTicket,referrerInfo(appId,extraData))
+  onLaunch: function(options){
+    
+  },
+  onShow: function(options){
 
   },
-  onShow:function(options){
+  onHide: function(){
 
   },
-  onHide:function(){
+  onError: function(msg){
 
   },
-  onError:function(msg){
-
-  },
-  onPageNotFound:function(options){
+  //options(path,query,isEntryPage)
+  onPageNotFound: function(options){
 
   }
+ 
 });

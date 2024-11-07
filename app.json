@@ -1,8 +1,8 @@
 {
-  "pages": [
+  "pages": [ 
     "pages/index/index",
     "pages/category/index",
-    "pages/goos_detail/index",
+    "pages/goods_detail/index",
     "pages/cart/index",
     "pages/collect/index",
     "pages/order/index",
@@ -11,8 +11,7 @@
     "pages/feedback/index",
     "pages/login/index",
     "pages/auth/index",
-    "pages/pay/index",
-    "pages/goods_list/index"
+    "pages/pay/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -20,5 +19,5 @@
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle":"black"
   },
-  "sitemapLocation": "sitemap.json",
+  "sitemapLocation": "sitemap.json"
 }
