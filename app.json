@@ -19,5 +19,39 @@
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle":"black"
   },
+  "tabBar": {
+    "color": "#999", 
+    "selectedColor": "#000000",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/zhuye2.png",
+        "selectedIconPath": "icons/zhuye.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "icons/fenlei_1.png",
+        "selectedIconPath": "icons/fenlei.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "icons/gouwuchekong.png",
+        "selectedIconPath": "icons/gouwucheman.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "icons/wode_1.png",
+        "selectedIconPath": "icons/wode.png"
+      }
+    ]
+  },
+  
   "sitemapLocation": "sitemap.json"
 }
