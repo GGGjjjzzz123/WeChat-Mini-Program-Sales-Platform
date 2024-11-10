@@ -14,10 +14,10 @@
     "pages/pay/index"
   ],
   "window": {
-    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "light",
     "navigationBarTitleText": "民族娃娃闪耀世界",
-    "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#20B1CF",
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
     "color": "#999", 
