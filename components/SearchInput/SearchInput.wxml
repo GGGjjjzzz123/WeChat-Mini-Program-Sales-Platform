@@ -1,0 +1,13 @@
+<view class="search-container">
+  <!-- 搜索框 -->
+  <input
+    class="search-input"
+    type="text"
+    placeholder="请输入搜索内容"
+    bindinput="onInputChange"
+  />
+
+  <!-- 搜索按钮 -->
+  <button class="search-btn" bindtap="onSearchClick">搜索</button>
+</view>
+
